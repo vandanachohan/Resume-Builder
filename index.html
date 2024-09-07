@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Resume Builder</title>
+</head>
+<body>
+  <h1 id="text"> Resume Build By Vandana Chohan</h1>
+  <hr>
+  <div class="container">
+    <div class="personal-info">
+      <h2>Personal Information</h2>
+      <p><b>Name:</b> Vandana Amarsi</p>
+      <p><b>Contact Detail: 03323505695</p>
+      <p><a href="mailto:Vandanachohan851@gmail.com">vandanachohan851@gmail.com</a></p>
+      <img src="profile-picture.jpg" alt="Profile Picture">
+    </div>
+    <div class="education">
+      <h2>Education</h2>
+      <p>Associate Degree in Arts, Karachi University (2020-2022)</p>
+    </div>
+    <div class="courses">
+      <h2>Courses</h2>
+      <ul>
+        <li>MS Office</li>
+        <li>English Language</li>
+        <li>Amazon Virtual Assistant, Virtual University</li>
+        <li>IT Course in Governor House</li>
+      </ul>
+    </div>
+    <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming Languages: HTML/CSS, TypeScript, Python, JavaScript</li>
+        <li>Strong problem-solving skills</li>
+        <li>Excellent teamwork and communication skills</li>
+      </ul>
+      <button type="button" id="toggle-skills">Toggle Skills</button>
+    </div>
+    <div class="work-experience">
+      <h2>Work Experience</h2>
+      <div class="experience">
+        <h5>Data entry job, <b>Lifi Insurance Company.</b></h5>
+        <p>Manage documents file, analyze data client.</p>
+      </div>
+      <div class="experience">
+        <h4>Intern, DEF Startups (Summer 2021)</h4>
+        <p>Contributed to the development of a mobile app for tracking personal expenses using Java and Android Studio.</p>
+      </div>
+      <button id="generate-resume" onclick="generateResume()">Generate-Resume</button>
+    </div>
+  </div>
+</body>
+</html>
